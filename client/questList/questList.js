@@ -32,7 +32,7 @@ angular.module('cityQuest.questList', [])
   $scope.queueQuest = function(questId){
     QuestStorage.queueQuest(questId, $scope.token)
     .then(function(resp){
-      console.log('resp', resp)
+      $location.path('/profile')
     })
     .catch(function(error){
       console.log(error);
