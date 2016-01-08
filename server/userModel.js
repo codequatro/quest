@@ -129,7 +129,7 @@ module.exports = {
         client.sendMessage({
             to:'+1' + user[0].tel_number, // Any number Twilio can deliver to
             from: '+18652975047', // A number you bought from Twilio and can use for outbound communication
-            body: userThatDidQuest + ' completed your quest:' + questName + "!"  // body of the SMS message
+            body: userThatDidQuest + ' completed your quest: ' + questName + "!"  // body of the SMS message
         }, function(err, responseData) { if(err){console.log(err);}}
         );
       });
