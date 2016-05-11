@@ -16,8 +16,8 @@
 ## Getting Started
 
 ```
-$ git clone https://github.com/teamwoof/Team-Woof.git
-$ cd Team-Woof
+$ git clone https://github.com/codequatro/quest.git
+$ cd quest
 $ bower install
 $ npm install
 $ node server/server.js
